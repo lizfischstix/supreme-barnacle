@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Cupcakes'; /* Choose a name for your font */
+    src: url('./Fonts/Cupcake.ttf') format('truetype'),
+        url('./Fonts/Cupcake.otf') format('opentype');
+    /* If your font has other formats (e.g., WOFF), you can include them as well */
+  }
+.hero{
+    
+}
+.nav-item{
+    font-family: cupcakes;
+    font-size: xx-large;
+}
