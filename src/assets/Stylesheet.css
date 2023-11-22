@@ -1,13 +1,45 @@
 @font-face {
-    font-family: 'Cupcakes'; /* Choose a name for your font */
+    font-family: 'Cupcakes';
+    /* Choose a name for your font */
     src: url('./Fonts/Cupcake.ttf') format('truetype'),
         url('./Fonts/Cupcake.otf') format('opentype');
-    /* If your font has other formats (e.g., WOFF), you can include them as well */
-  }
-.hero{
-    
 }
-.nav-item{
-    font-family: cupcakes;
-    font-size: xx-large;
+
+@font-face {
+    font-family: 'Magnus';
+    src: url('./Fonts/FFF_Tusj.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'perfect';
+    src: url('./Fonts/Perfect_DOS_VGA_437.ttf') format('truetype');
+}
+
+.hero {
+    padding: 50px;
+    padding-top: 100px;
+    background-image: url(./images/responsive-hero-image.png);
+    max-width: 100%;
+    height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.name-tag {
+    font-family: 'perfect';
+    font-size: large;
+    color: black;
+}
+
+.name {
+    font-family: 'cupcakes';
+    font-size: xxx-large;
+    color: gray
+}
+
+.nav-item {
+    font-family: 'perfect';
+    font-size: x-large;
 }
