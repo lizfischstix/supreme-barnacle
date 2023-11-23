@@ -14,19 +14,28 @@
     font-family: 'perfect';
     src: url('./Fonts/Perfect_DOS_VGA_437.ttf') format('truetype');
 }
-
+.nav {
+    background-color: wheat ;
+}
 .hero {
     padding: 50px;
     padding-top: 100px;
     background-image: url(./images/responsive-hero-image.png);
     max-width: 100%;
-    height: max-content;
+    height: fil;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-
+.droids {
+    background-image: url(./images/404-page.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: center;
+    font-family: 'perfect';
+}
 .name-tag {
     font-family: 'perfect';
     font-size: large;
@@ -35,11 +44,12 @@
 
 .name {
     font-family: 'cupcakes';
-    font-size: xxx-large;
+    font-size:5rem;
     color: gray
 }
 
 .nav-item {
     font-family: 'perfect';
     font-size: x-large;
+    color: gray
 }
