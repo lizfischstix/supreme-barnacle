@@ -22,7 +22,7 @@
     padding-top: 100px;
     background-image: url(./images/responsive-hero-image.png);
     max-width: 100%;
-    height: fil;
+    height: fill;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,4 +52,9 @@
     font-family: 'perfect';
     font-size: x-large;
     color: gray
+}
+.foot {
+    font-family: 'perfect';
+    background-image: url(./images/Foot.png);
+    max-height: 100%;
 }
