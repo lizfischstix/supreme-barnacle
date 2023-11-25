@@ -62,7 +62,10 @@
     font-size: x-large;
     color: gray
 }
-
+.avitar{
+    max-width: 15vw;
+  
+}
 .foot {
     margin-top: auto;
     font-family: 'perfect';
@@ -72,4 +75,16 @@
 
 .cupcakes {
     font-family: cupcakes;
+}
+
+.perfect {
+    font-family: perfect;
+}
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.resumeDL{
+    font-family: 'cupcakes';
+    font-size: large;
 }

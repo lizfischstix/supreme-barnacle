@@ -1,15 +1,44 @@
 export default function Resume() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div className="mt-3">
+      <span className="resumeDL">Download a PDF of Liz's full resume <a href="src/assets/LizFischenich_Resume.pdf" download="LizFischenich_Resume.pdf">HERE</a>.</span>
+      <div className="container">
+        <div className="mt-3 row">
+          <div className="col-sm-6  front-end">
+            <ul className="font-weight-bold"><strong className="h4 perfect">Front-end Proficencies</strong>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responive Design</li>
+              <li>Bootstrap</li>
+              <li>Bulma</li>
+              <li>JavaScript</li>
+              <li>Handlebars</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div className="col-sm-6 front-end">
+            <ul className="font-weight-bold"><strong className="h4 perfect">Back-end Proficencies</strong>
+              <li>Node</li>
+              <li>Express</li>
+              <li>APIs</li>
+              <li>MySQL/Sequelize</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+        </div>
+          <div className="col-sm-12 align-center other">
+            <ul className="font-weight-bold"><strong className="h4 cupcakes">Other Proficencies</strong>
+              <li>Design thinking</li>
+              <li>Record keeping</li>
+              <li>Presentations</li>
+              <li>Cross-functional teamwork</li>
+              <li>Educational technologies</li>
+              <li>Digital marketing</li>
+              <li>Custommer service</li>
+            </ul>
+        </div>
+      </div>
+
     </div>
   );
 }
