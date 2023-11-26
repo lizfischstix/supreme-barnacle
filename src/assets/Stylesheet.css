@@ -88,3 +88,8 @@
     font-family: 'cupcakes';
     font-size: large;
 }
+.buttonLinks{
+    display: flex;
+    justify-content: space-around;
+    font-family: perfect;
+}
