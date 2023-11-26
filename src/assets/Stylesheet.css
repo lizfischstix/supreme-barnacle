@@ -6,15 +6,18 @@
 }
 
 @font-face {
-    font-family: 'Magnus';
-    src: url('./Fonts/FFF_Tusj.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'perfect';
     src: url('./Fonts/Perfect_DOS_VGA_437.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'andika';
+    src: url('./Fonts/andika.regular.ttf') format('truetype');
+}
+#root{
+    background-color: #fffee0;
+    font-family: 'andika';
+}
 .app{
     min-height: 100vh;
     display: flex;
@@ -22,6 +25,9 @@
 }
 .nav {
     background-color: wheat;
+}
+link:active {
+    background-color:#fffee0 ;
 }
 
 .hero {
@@ -60,7 +66,9 @@
 .nav-item {
     font-family: 'perfect';
     font-size: x-large;
-    color: gray
+}
+.nav-link{
+    color: orange ;
 }
 .avitar{
     max-width: 15vw;
@@ -81,7 +89,7 @@
     font-family: perfect;
 }
 .bio{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'andika';
     font-size: larger;
 }
 .resumeDL{
