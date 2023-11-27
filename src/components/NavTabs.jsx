@@ -1,9 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
+    <nav fill variant="tabs">
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <Link
@@ -39,7 +41,7 @@ function NavTabs() {
           </Link>
         </li>
       </ul>
-  
+      </nav>
   );
 }
 

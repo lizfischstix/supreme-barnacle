@@ -26,7 +26,7 @@
 .nav {
     background-color: wheat;
 }
-link:active {
+.nav-item {
     background-color:#fffee0 ;
 }
 
@@ -60,7 +60,7 @@ link:active {
 .name {
     font-family: 'cupcakes';
     font-size: 5rem;
-    color: gray
+    color: #999999
 }
 
 .nav-item {
@@ -88,16 +88,32 @@ link:active {
 .perfect {
     font-family: perfect;
 }
-.bio{
-    font-family: 'andika';
-    font-size: larger;
-}
+
 .resumeDL{
     font-family: 'cupcakes';
-    font-size: large;
+    font-size: x-large;
 }
 .buttonLinks{
     display: flex;
     justify-content: space-around;
     font-family: perfect;
+}
+
+span {
+    display: flex;
+    justify-content: right;
+    color: #999999;
+    font-size: 3rem;
+    font-family: cupcakes;
+}
+.image {
+    width:75px;
+    height: auto;
+}
+.box {
+   border-color: #999999;
+   border-style:double ;
+   border-width:1dvb;
+   padding-top: 7px;
+   padding-bottom: 10px;
 }

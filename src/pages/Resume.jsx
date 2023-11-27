@@ -3,6 +3,10 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 export default function Resume() {
   return (
+    <>
+    <div className='mt-4 resumeDL'>
+    Download complete resume <a href="src/assets/PDFs/LizFischenich_Resume.pdf">HERE</a>!
+    </div>
     <CardGroup className='mt-5'>
       <Card>
         <Card.Body>
@@ -46,5 +50,6 @@ export default function Resume() {
         </Card.Body>
       </Card>
     </CardGroup>
+    </>
   );
 }
