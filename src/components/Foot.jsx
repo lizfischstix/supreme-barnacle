@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import LinkedIn from '../assets/images/LinkedIn-button.png';
 import Github from '../assets/images/GitHub-button.png';
 import Instagram from '../assets/images/Instagram-button.png';
-import Spotify from '../assets/images/spotify-button.png';
+import Spotify from '../assets/images/Spotify-button.png';
 
 export default function Foot() {
   const currentPage = useLocation().pathname;
