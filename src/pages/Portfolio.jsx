@@ -5,7 +5,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import GameOn from '../assets/images/projectPics/GameOn.png';
 import TechBlog from '../assets/images/projectPics/TechBlog.png';
-
+import JATE  from '../assets/images/projectPics/textEditor.png';
+import DayPlanner  from '../assets/images/projectPics/DayPlanner.png';
+import NoteTaker from '../assets/images/projectPics/NoteTaker.png';
+import MealPlanner  from '../assets/images/projectPics/whatsForDinner.png';
 export default function Portfolio() {
   return (
     <div className="App">  
@@ -40,7 +43,7 @@ export default function Portfolio() {
  </Col>  
      <Col md="4">  
    <Card border="dark" style={{ width: '22rem' }}>  
-   <Card.Img variant="top" src='src/assets/images/projectPics/textEditor.png' />  
+   <Card.Img variant="top" src={ JATE } />  
    <Card.Body>  
      <Card.Title>Just Another Text Editor</Card.Title>  
      <Card.Text>  
@@ -55,7 +58,7 @@ export default function Portfolio() {
      <Row className='pt-4'> 
    <Col md="4">  
    <Card border="dark" style={{ width: '22rem' }}>  
-   <Card.Img variant="top" src='src/assets/images/projectPics/DayPlanner.png' />  
+   <Card.Img variant="top" src={ DayPlanner } />  
    <Card.Body>  
      <Card.Title>Workday Scheduler</Card.Title>  
      <Card.Text>  
@@ -70,7 +73,7 @@ export default function Portfolio() {
      
      <Col md="4">  
    <Card border="dark" style={{ width: '22rem' }}>  
-   <Card.Img variant="top" src='src/assets/images/projectPics/noteTaker.png' />  
+   <Card.Img variant="top" src={NoteTaker} />  
    <Card.Body>  
      <Card.Title>Note Taker</Card.Title>  
      <Card.Text>  
@@ -83,7 +86,7 @@ export default function Portfolio() {
  </Col>  
      <Col md="4">  
    <Card border="dark" style={{ width: '22rem' }}>  
-   <Card.Img variant="top" src='src/assets/images/projectPics/whatsForDinner.png' />  
+   <Card.Img variant="top" src={MealPlanner} />  
    <Card.Body>  
      <Card.Title>What's For Dinner!?</Card.Title>  
      <Card.Text>  

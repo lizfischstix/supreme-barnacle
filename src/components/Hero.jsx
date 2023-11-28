@@ -4,11 +4,11 @@ import { useLocation } from 'react-router-dom';
 function Hero() {
   const currentPage = useLocation().pathname;
   return (
-    <Container fluid className='hero'>
-      <Row className='pl-5'>
+    <Container fluid className='px-5 hero'>
+      <Row className='ml-4'>
         <Col Text-start> 
-        <Col className='pl-3 name'>Liz Fischnich</Col>
-          <Row className='name-tag pl-6'>Hello World!</Row>
+        <Col className='name'>Liz Fischnich</Col>
+          <Row className='name-tag'>Hello World!</Row>
         </Col>
      </Row>
     </Container>

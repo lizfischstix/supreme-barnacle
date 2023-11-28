@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <>
     <div className='mt-4 resumeDL'>
-    Download complete resume <a href={MyResume}>HERE</a>!
+    Download complete resume <a href={MyResume} target="_blank" >HERE</a>!
     </div>
     <CardGroup className='mt-5'>
       <Card>
