@@ -7,7 +7,7 @@ function Hero() {
     <Container fluid className='hero'>
       <Row className='pl-5'>
         <Col Text-start> 
-        <Col className='name'>Liz Fischnich</Col>
+        <Col className='pl-3 name'>Liz Fischnich</Col>
           <Row className='name-tag pl-6'>Hello World!</Row>
         </Col>
      </Row>

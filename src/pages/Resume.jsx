@@ -1,11 +1,12 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import MyResume from '../assets/PDFs/LizFischenich_Resume.pdf'
 
 export default function Resume() {
   return (
     <>
     <div className='mt-4 resumeDL'>
-    Download complete resume <a href="src/assets/PDFs/LizFischenich_Resume.pdf">HERE</a>!
+    Download complete resume <a href={MyResume}>HERE</a>!
     </div>
     <CardGroup className='mt-5'>
       <Card>

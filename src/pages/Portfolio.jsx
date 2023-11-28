@@ -1,5 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';  
-import {Container, Card, Col, Row, Button} from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import GameOn from '../assets/images/projectPics/GameOn.png';
+import TechBlog from '../assets/images/projectPics/TechBlog.png';
 
 export default function Portfolio() {
   return (
@@ -8,7 +13,7 @@ export default function Portfolio() {
     <Row> 
    <Col md="4">  
    <Card border="dark" style={{ width: '22rem' }}>  
-   <Card.Img variant="top" src='src/assets/images/projectPics/GameOn.png' />  
+   <Card.Img variant="top" src={ GameOn } />  
    <Card.Body>  
      <Card.Title>Game On!</Card.Title>  
      <Card.Text>  
@@ -22,7 +27,7 @@ export default function Portfolio() {
      
      <Col md="4">  
    <Card border="dark" style={{ width: '22rem' }}>  
-   <Card.Img variant="top" src='src/assets/images/projectPics/TechBog.png' />  
+   <Card.Img variant="top" src={TechBlog} />  
    <Card.Body>  
      <Card.Title>Tech Blog</Card.Title>  
      <Card.Text>  
