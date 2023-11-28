@@ -5,7 +5,12 @@
   ## Table of Contents: 
   * [installation](#installation)
   * [credits](#credits)
-  *  [License](#license)
+  * [License](#license)
+
+  ![About Me page](image.png)
+  ![Resume page](image-1.png)
+  ![Portfolio page](image-2.png)
+  ![Contact page](image-3.png)
 
   ## Installation: 
   The portfolio can be accessed [HERE](https://majestic-sunflower-4adc14.netlify.app).

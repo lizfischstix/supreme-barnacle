@@ -22,8 +22,8 @@ export default function Portfolio() {
                 <Card.Text>
                   A free online gaming ecosystem where users can rate the games they've played and save the ones they like.
                 </Card.Text>
-                <div className='buttonLinks'> <a href="https://grisly-coffin-11200-fb183baf5ee2.herokuapp.com/"><Button variant="warning">Game On!</Button></a>
-                  <a href="https://github.com/lizfischstix/GAME-ON"><Button variant="warning">on GitHub</Button></a></div>
+                <div className='buttonLinks'> <a href="https://grisly-coffin-11200-fb183baf5ee2.herokuapp.com/" target="_blank"><Button variant="warning">Game On!</Button></a>
+                  <a href="https://github.com/lizfischstix/GAME-ON" target="_blank"><Button variant="warning">on GitHub</Button></a></div>
               </Card.Body>
             </Card>
           </Col>
