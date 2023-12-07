@@ -60,12 +60,12 @@ export default function Portfolio() {
             <Card border="dark" style={{ width: '22rem' }}>
               <Card.Img variant="top" src={DayPlanner} />
               <Card.Body>
-                <Card.Title>Workday Scheduler</Card.Title>
+                <Card.Title>Basil Budget</Card.Title>
                 <Card.Text>
-                  A web application that provides a calender and space for the user to enter and save their schedule.
+                  A web application where users can budget and record their spending and income.
                 </Card.Text>
-                <div className='buttonLinks'> <a href="https://lizfischstix.github.io/liz-makes-a-calendar-app/"><Button variant="warning">Workday Scheduler</Button></a>
-                  <a href="https://github.com/lizfischstix/liz-makes-a-calendar-app"><Button variant="warning">on GitHub</Button></a></div>
+                <div className='buttonLinks'> <a href="https://basil-budget-e685e272efd5.herokuapp.com/"><Button variant="warning">Basil</Button></a>
+                  <a href="https://github.com/ingridmidia/mern-budget-app"><Button variant="warning">on GitHub</Button></a></div>
               </Card.Body>
             </Card>
           </Col>
