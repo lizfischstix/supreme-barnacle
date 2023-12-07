@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import GameOn from '../assets/images/projectPics/GameOn.png';
 import TechBlog from '../assets/images/projectPics/TechBlog.png';
 import JATE from '../assets/images/projectPics/textEditor.png';
-import DayPlanner from '../assets/images/projectPics/DayPlanner.png';
+import Basil from '../assets/images/projectPics/basil-laptp.png';
 import Notes from '../assets/images/projectPics/noteTaker.png'
 import MealPlanner from '../assets/images/projectPics/whatsForDinner.png';
 export default function Portfolio() {
@@ -58,7 +58,7 @@ export default function Portfolio() {
         <Row className='pt-4'>
           <Col md="4">
             <Card border="dark" style={{ width: '22rem' }}>
-              <Card.Img variant="top" src={DayPlanner} />
+              <Card.Img variant="top" src={ Basil } />
               <Card.Body>
                 <Card.Title>Basil Budget</Card.Title>
                 <Card.Text>
