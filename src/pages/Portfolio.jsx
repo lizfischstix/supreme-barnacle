@@ -6,8 +6,8 @@ import Col from 'react-bootstrap/Col';
 import GameOn from '../assets/images/projectPics/GameOn.png';
 import TechBlog from '../assets/images/projectPics/TechBlog.png';
 import JATE from '../assets/images/projectPics/textEditor.png';
-import Basil from '../assets/images/projectPics/basil-laptp.png';
-import Notes from '../assets/images/projectPics/noteTaker.png'
+import Basil from '../assets/images/projectPics/Basil-laptop.png';
+import Notes from '../assets/images/projectPics/noteTaker.png';
 import MealPlanner from '../assets/images/projectPics/whatsForDinner.png';
 export default function Portfolio() {
   return (
